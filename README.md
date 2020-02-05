@@ -108,7 +108,11 @@ model
 `mp4_png.py`为参考文件，当`mp42png.py`与`png2mp4.py`的多线程出问题时，可作参考，采用循环
 
 -----------
-
+0. 下载项目
+```
+mkdir model/
+git clone https://github.com/sxpro/NAIC2019-AI-4KHDR-.git
+```
 
 1. 运行**mp42png.py**, 生成关键帧数据。文件中有训练集的540p、4K数据与测试集的数据路径
 ```
